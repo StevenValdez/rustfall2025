@@ -32,8 +32,10 @@ fn load_books(filename: &str) -> Vec<Book> {
                 title: parts[0].to_string(),
                 author: parts[1].to_string(),
                 year: parts[2].parse().unwrap(),
-            });
-
+            })
+        };
+        books
+    }
 fn main() {
     let books = vec![
         Book { title: "1984".to_string(), author: "George Orwell".to_string(), year: 1949 },
