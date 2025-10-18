@@ -33,11 +33,6 @@ fn load_books(filename: &str) -> Vec<Book> {
                 author: parts[1].to_string(),
                 year: parts[2].parse().unwrap(),
             });
-        
-    }
-
-    books
-}
 
 fn main() {
     let books = vec![
