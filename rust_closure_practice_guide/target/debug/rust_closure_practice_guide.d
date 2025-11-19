@@ -1,0 +1,1 @@
+/workspaces/rustfall2025/rust_closure_practice_guide/target/debug/rust_closure_practice_guide: /workspaces/rustfall2025/rust_closure_practice_guide/src/main.rs
